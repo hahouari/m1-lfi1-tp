@@ -1,0 +1,8 @@
+f(x, g(z))
+f(g(y), x)
+
+f(x, x, a)
+f(g(y), g(a), y)
+
+f(x, x, x)
+f(g(y), g(a), y)

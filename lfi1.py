@@ -97,12 +97,12 @@ class LFI1:
             print()
             if force_stop:
                 print(
-                    'l\'Algorithme a été arrêté forcément, car il n\'y a pas un progrès en ∆_k, k= {}.'.format(
+                    'l\'Algorithme a été arrêté forcément, car il n\'y a pas un progrès en ∆_k, k = {}.'.format(
                         k
                     )
                 )
             else:
-                print('l\'Algorithme a fini avec succès, k= {}.'.format(k))
+                print('l\'Algorithme a fini avec succès, k = {}.'.format(k))
             return
 
         # exclude union_delta_theta from resolvants

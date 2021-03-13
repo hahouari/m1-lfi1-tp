@@ -1,4 +1,6 @@
-from lfi1 import LFI1, Clause
+#!/usr/bin/python3
+
+from lfi1 import LFI1
 
 
 def print_choices():
@@ -9,7 +11,7 @@ def print_choices():
     print('[1] imprimmer ce catalogue')
     print('[2] insérer des nouveaux clauses')
     print('[3] exécuter la stratégie complète')
-    print('[4] minimiser les clauses inser')
+    print('[4] minimiser les clauses insérées')
     print('----------------------------------------')
 
 
